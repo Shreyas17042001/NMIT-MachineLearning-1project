@@ -27,7 +27,7 @@ def predict(Buying, Maint, Doors, Persons, Lug_boot, Safety);
 
 st.title('Car Evalution Classification')
 st.image("""https://duckduckgo.com/?t=h_&q=lamborghini&iax=images&ia=images&iai=https%3A%2F%2Fcar-images.bauersecure.com%2Fpagefiles%2F68553%2Fzlambo-003.jpg""")
-st.header('enter the information of the car:"
+st.header('enter the information of the car:')
 st.text("vhigh = 1 high = 2 med = 3 low = 4")
 
 Buying = st.number_input('buying:', min_value=1, max_value=4, value=1)
