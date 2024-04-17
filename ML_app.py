@@ -26,7 +26,7 @@ def predict(Buying, Maint, Doors, Persons, Lug_boot, Safety):
     return prediction
 
 st.title('Car Evalution Classification')
-st.image("""https://duckduckgo.com/?t=h_&q=lamborghini&iax=images&ia=images&iai=https%3A%2F%2Fcar-images.bauersecure.com%2Fpagefiles%2F68553%2Fzlambo-003.jpg""")
+st.image("""https://d2hucwwplm5rxi.cloudfront.net/wp-content/uploads/2021/11/05091906/Lamborghini-facts-cover-051120210230.jpg""")
 st.header('enter the information of the car:')
 st.text("vhigh = 1 high = 2 med = 3 low = 4")
 
