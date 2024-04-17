@@ -37,17 +37,17 @@ Maint = st.number_input('maint:', min_value=1, max_value=4, value=1)
 
 st.text("2-Doors = 1 3-Doors 2 4-Doors = 3 5more = 4")
 
-Doors st.number_input('doors:', min_value=1, max_value=4, value=1)
+Doors = st.number_input('doors:', min_value=1, max_value=4, value=1)
 
 st.text("2-persons = 1 4-persons = 2 more = 3 ")
 
-Persons st.number_input('persons:', min_value=1, max_value=3, value=1)
+Persons = st.number_input('persons:', min_value=1, max_value=3, value=1)
 
 st.text("small 1 med 2 big = 3")
 
-Lug_boot st.number_input('lug_boot:', min_value=1, max_value=3, value=1)
+Lug_boot = st.number_input('lug_boot:', min_value=1, max_value=3, value=1)
 
-Safety st.radio('safety:', ('med', 'high', 'low'))
+Safety = st.radio('safety:', ('med', 'high', 'low'))
 if st.button('submit_car_Infos')
-cal_eval = predict(Buying, Maint, Doors, Persons, Lug_boot, Safety)
-st.success(f'The Evalution of car : {cal_eval[0]}')
+  cal_eval = predict(Buying, Maint, Doors, Persons, Lug_boot, Safety)
+  st.success(f'The Evalution of car : {cal_eval[0]}')
